@@ -9,6 +9,13 @@ class Nike
     @parsed_page ||= Nokogiri::HTML(content)
   end
 
+  def get_names
+    names = []
+    items_container.each do |item|
+      names << item.css('.product-card__link-overlay').text
+    end
+    return names
+  end
 
 
   def items_container
