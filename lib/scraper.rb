@@ -17,6 +17,14 @@ class Nike
     return names
   end
 
+  def get_prices
+    prices = []
+    items_container.each do |item|
+      prices << item.css('.css-b9fpep').text
+    end
+    return prices
+  end
+
 
   def items_container
     parsed_page.css('.product-grid__items').css('.product-grid__card')
