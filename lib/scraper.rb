@@ -25,6 +25,16 @@ class Nike
     return prices
   end
 
+  def print_output
+    names  = get_names
+    prices = get_prices
+    puts "================================="
+    for i in 0..names.size - 1
+      puts "#{names[i]} is at the price: #{prices[i]}"
+      puts "================================="
+    end
+  end
+
 
   def items_container
     parsed_page.css('.product-grid__items').css('.product-grid__card')
