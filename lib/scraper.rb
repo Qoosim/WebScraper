@@ -10,5 +10,9 @@ class Nike
   end
 
 
-  
+
+  def items_container
+    parsed_page.css('.product-grid__items').css('.product-grid__card')
+  end
+
 end
