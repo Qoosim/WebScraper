@@ -19,7 +19,7 @@
   - [Project Requirements](#requirements)
   - [Project Setup](#setup)
   - [Contributions, Issues and Forking](#-contributions-issues-and-forking)
-  - [Creator](#creator)
+  - [Creator](#--creator)
   - [Show Your Support](#-show-your-support)
 
 ## ❓ About This Project
