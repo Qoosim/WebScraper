@@ -15,12 +15,12 @@
 ## Table of Contents
 
   - [About This Project](https://github.com/Qoosim/WebScraper/tree/scraper#-about-this-project)
-  - [Technologies &amp; Languages Used](https://github.com/Qoosim/WebScraper#-technologies--languages-used)
+  - [Technologies &amp; Languages Used](#-technologies--languages-used)
   - [Project Requirements](#requirements)
   - [Project Setup](#setup)
-  - [Contributions, Issues and Forking](https://github.com/Qoosim/WebScraper#-contributions-issues-and-forking)
-  - [Creator](https://github.com/Qoosim/WebScraper#--creator)
-  - [Show Your Support](https://github.com/Qoosim/WebScraper#-show-your-support)
+  - [Contributions, Issues and Forking](#-contributions-issues-and-forking)
+  - [Creator](#creator)
+  - [Show Your Support](#-show-your-support)
 
 ## ❓ About This Project
 
