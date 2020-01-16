@@ -42,4 +42,4 @@ class Nike
 end
 
 nike = Nike.new
-result = nike.print_output
+nike.print_output
