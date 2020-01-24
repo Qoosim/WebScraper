@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Scraping Nike Website</title>
+</head>
+<body>
+  <div class = "title">
+    <h2>Scraping Nike Web page with Ruby</h2>
+  </div>
+  <section class = "container">
+    <ul class = "list">
+      <% (0..name.size - 1).each do |i| %>
+        <li class = "list-item">Name: <%= name[i] %></li>
+        <li class = "list-item">Price: <%= price[i] %>
+        <%= "==============================="%>
+      <% end %>
+    </ul>
+  </section>
+  
+</body>
+</html>
