@@ -29,10 +29,10 @@ This project is a capstone project which is the part of new developments in [Mic
 ## 🔨 Technologies & Languages Used
 
   - Ruby
-  - ERB
-  - HTTParty
-  - Launchy
-  - Nokogiri
+  - ERB gem
+  - HTTParty gem
+  - Launchy gem
+  - Nokogiri gem
   - Rubocop
   - Stickler
 
