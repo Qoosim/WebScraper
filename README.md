@@ -46,8 +46,7 @@ This project is a capstone project which is the part of new developments in [Mic
 ### Setup
 
 - Install ruby on your computer system.
-- Install HTTParty gem with this command `gem install httparty`
-- Install Nokogiri gem with this command `gem install nokogiri`
+- Install all the Rubygems listed in the Gemfile with this command `bundle install`
 
 ## 🥂 Contributions, Issues and Forking
 
