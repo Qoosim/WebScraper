@@ -35,14 +35,12 @@ class Nike
   def print_output
     name = names
     price = prices
-    
     # Declare empty string variable
     text = ''
     # Import 'scrpaer.html.erb'
     File.open('scraper.html.erb').each do |file|
       text += file
     end
-
     # ERB object class to render the imported file
     result = ERB.new(text).result(binding)
 
@@ -50,7 +48,7 @@ class Nike
 
     # Create 'scraper.html' file and write the result into it
     File.open('scraper.html', 'w') do |file|
-    file.write(result)
+      file.write(result)
     end
 
     # Automatic display of output on the browser

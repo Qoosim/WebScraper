@@ -14,9 +14,9 @@
   <section class = "container">
     <ul class = "list">
       <% (0..name.size - 1).each do |i| %>
-        <li class = "list-item">Name: <%= name[i] %></li>
-        <li class = "list-item">Price: <%= price[i] %>
-        <%= "==============================="%>
+        <li class = "list-item"><strong>Name:</strong> <%= name[i] %></li>
+        <li class = "list-item"><strong>Price:</strong> <%= price[i] %>
+        <%= "=================================="%>
       <% end %>
     </ul>
   </section>
