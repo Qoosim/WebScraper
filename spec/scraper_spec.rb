@@ -1,29 +1,28 @@
-require_relative '../main.rb'
-require_relative '../scraper.htm.erb'
+require_relative '../bin/main.rb'
 
 RSpec.describe 'Nike' do
   let(:nike) { Nike.new }
 
   describe '#names' do
-    it 'returns product names of the targeted web page' do
-      expect().to eql()
+    it 'returns product names' do
+      expect(nike.names.class).to eql(Array)
     end
   end
+
   describe '#prices' do
-    it 'returns product prices of the targeted web page' do
-      expect().to eql()
+    it 'returns product prices' do
+      expect(nike.prices.class).to be(Array)
     end
   end
 
-  describe 'print_output' do
-    it 'returns product names and prices in a row' do
-      expect().to eql
+  describe '#print_output' do
+    it 'returns names and prices of the product' do
+      expect(nike.print_output.class).to be(Process::Waiter)
     end
   end
-
   describe '#items_container' do
-    it 'returns contents row of the web page' do
-      expect(nike.items_container).to eql(items_container)
+    it 'returns row lists of products on the web page' do
+      expect(nike.items_container.class).to be(Nokogiri::XML::NodeSet)
     end
   end
 end

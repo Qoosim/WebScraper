@@ -51,7 +51,7 @@ class Nike
       file.write(result)
     end
 
-    # Automatic display of output on the browser
+    # Automatic display of output on the browser when 'main.rb' is run
     Launchy.open('./scraper.html')
   end
 
