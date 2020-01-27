@@ -29,7 +29,9 @@ This project is a capstone project which is the part of new developments in [Mic
 ## 🔨 Technologies & Languages Used
 
   - Ruby
+  - ERB
   - HTTParty
+  - Launchy
   - Nokogiri
   - Rubocop
   - Stickler
