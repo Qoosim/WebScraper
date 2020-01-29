@@ -57,7 +57,7 @@ If you have any problems setting up yourselves, please do check out the [issues 
 If you want to make your own changes, modifications or improvements, go ahead and Fork it!
 1. Fork it (https://github.com/Qoosim/WebScraper/fork)
 2. Create your working branch (git checkout -b [choose-a-name])
-3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
+3. Commit your changes (git commit -m 'what this commit will fix/add/improve')
 4. Push to the branch (git push origin [chosen-name])
 5. Create a new Pull Request
 
