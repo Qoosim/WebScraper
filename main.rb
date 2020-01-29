@@ -2,7 +2,7 @@
 
 require 'httparty'
 require 'nokogiri'
-require 'erb'
+require 'erubi'
 require 'launchy'
 
 class Nike

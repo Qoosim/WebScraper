@@ -1,4 +1,4 @@
-require_relative '../bin/main.rb'
+require_relative '../main.rb'
 
 RSpec.describe 'Nike' do
   let(:nike) { Nike.new }
